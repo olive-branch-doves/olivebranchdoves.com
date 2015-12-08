@@ -1,0 +1,13 @@
+# Site settings
+title: Olive Branch Dove Releases
+author: John Cook
+description:
+baseurl:
+permalink: /:categories/:title/
+url: "http://www.olivebranchdoves.com"
+include: ['lib','js','img']
+gems:
+  - jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
