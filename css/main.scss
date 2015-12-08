@@ -11,7 +11,7 @@ $color01: #393939;
 $color02: #515151;
 $color03: #747369;
 $color04: #a09f93;
-$color05: #2d2d2d;
+$color05: #d3d0c8;
 $color06: #e8e6df;
 $color07: #f2f0ec;
 $color08: #f2777a;
@@ -36,4 +36,23 @@ a{
 }
 a:hover{
   color: $color0C;
+}
+
+input[type="email"], input[type="number"], input[type="search"],
+input[type="text"], input[type="tel"], input[type="url"],
+input[type="password"], textarea, select {
+  background-color: $color06;
+  color: $color01;
+  border:1px solid $color05;
+}
+.button.button-primary, button.button-primary,
+input[type="submit"].button-primary, input[type="reset"].button-primary,
+input[type="button"].button-primary{
+  background-color: $link-color;
+  border-color: $link-color;
+}
+
+.example-send-yourself-copy {
+    float: right;
+    margin-top: 12px;
 }
