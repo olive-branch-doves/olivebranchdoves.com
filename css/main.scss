@@ -1,0 +1,39 @@
+---
+title: Primary SASS Stylesheet
+---
+@import 'mixin';
+@import 'normalize';
+@import 'skeleton';
+
+/* color theme based on http://chriskempson.github.io/base16/#eighties */
+$color00: #2d2d2d;
+$color01: #393939;
+$color02: #515151;
+$color03: #747369;
+$color04: #a09f93;
+$color05: #2d2d2d;
+$color06: #e8e6df;
+$color07: #f2f0ec;
+$color08: #f2777a;
+$color09: #f99157;
+$color0A: #ffcc66;
+$color0B: #99cc99;
+$color0C: #66cccc;
+$color0D: #6699cc;
+$color0E: #cc99cc;
+$color0F: #d27b53;
+
+$background-color: $color07;
+$font-color: $color02;
+$link-color: $color0D;
+
+body{
+  background-color: $background-color;
+  color: $font-color;
+}
+a{
+  color: $link-color;
+}
+a:hover{
+  color: $color0C;
+}
